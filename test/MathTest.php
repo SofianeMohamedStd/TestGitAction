@@ -16,7 +16,6 @@ class MathTest extends TestCase{
     }
 
     public function testFactorialGreaterThanFibonacci() {
-        $math = new Math();
         $this->assertTrue($math->factorial(6) > $math->fibonacci(6));
     }
 }
