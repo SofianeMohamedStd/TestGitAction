@@ -10,10 +10,10 @@ class MathTest extends TestCase{
         $this->assertEquals(34, $math->fibonacci(9));
     }
 
-    /*public function testFactorial() {
+    public function testFactorial() {
         $math = new Math();
         $this->assertEquals(120, $math->factorial(5));
-    }*/
+    }
 
     /*public function testFactorialGreaterThanFibonacci() {
         $math = new Math();
